@@ -262,7 +262,12 @@ alias rn-windows='npx react-native run-windows'
 # React
 #-------------------------------------------------------------
 alias react-init='npx create-react-app --template typescript'
-  
+
+#-------------------------------------------------------------
+# UPDATE RC
+#-------------------------------------------------------------
+alias update-zshrc='curl -o ${HOME}/.zshrc https://raw.githubusercontent.com/bokuhe/rc/main/.zshrc && source ~/.zshrc'
+
 # Add Visual Studio Code (code)
 export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
   
