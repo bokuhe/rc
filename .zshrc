@@ -267,6 +267,12 @@ alias react-init='npx create-react-app --template typescript'
 # UPDATE RC
 #-------------------------------------------------------------
 alias update-zshrc='curl -o ${HOME}/.zshrc https://raw.githubusercontent.com/bokuhe/rc/main/.zshrc && source ~/.zshrc'
+alias update-vimrc='(
+mkdir /Users/$USER/.vim
+mkdir /Users/$USER/.vim/colors
+curl -o /Users/$USER/.vim/colors/codedark.vim https://raw.githubusercontent.com/bokuhe/vim-code-dark/master/colors/codedark.vim
+curl -o /Users/$USER/.vimrc https://raw.githubusercontent.com/bokuhe/rc/main/.vimrc
+)'
 
 # Add Visual Studio Code (code)
 export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
