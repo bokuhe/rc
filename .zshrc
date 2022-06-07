@@ -268,8 +268,7 @@ alias react-init='npx create-react-app --template typescript'
 #-------------------------------------------------------------
 alias update-zshrc='curl -o $HOME/.zshrc https://raw.githubusercontent.com/bokuhe/rc/main/.zshrc && source ~/.zshrc'
 alias update-vimrc='(
-mkdir $HOME/.vim
-mkdir $HOME/.vim/colors
+mkdir -p $HOME/.vim/colors
 curl -o $HOME/.vim/colors/codedark.vim https://raw.githubusercontent.com/bokuhe/vim-code-dark/master/colors/codedark.vim
 curl -o $HOME/.vimrc https://raw.githubusercontent.com/bokuhe/rc/main/.vimrc
 )'
