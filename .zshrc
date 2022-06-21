@@ -264,6 +264,11 @@ alias rn-windows='npx react-native run-windows'
 alias react-init='npx create-react-app --template typescript'
 
 #-------------------------------------------------------------
+# Python
+#-------------------------------------------------------------
+alias pyhttp='python3 -m http.server'
+
+#-------------------------------------------------------------
 # UPDATE RC
 #-------------------------------------------------------------
 alias update-zshrc='curl -o $HOME/.zshrc https://raw.githubusercontent.com/bokuhe/rc/main/.zshrc && source ~/.zshrc'
