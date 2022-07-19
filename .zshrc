@@ -251,6 +251,8 @@ alias rn-pod='cd ios && pod install && cd ..'
 alias rn-gradle='cd android && sh gradlew build && cd ..'
 alias rn-mac='npx react-native run-macos'
 alias rn-install='npm i && rn-pod && rn-gradle'
+
+alias rn-config='/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/bokuhe/rc/main/rn/rn-conf.sh)"'
  
 # RN Desktop
 alias rn-init-macos='npx react-native-macos-init'
