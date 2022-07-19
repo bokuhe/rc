@@ -10,3 +10,6 @@ curl -o .prettierrc.js https://raw.githubusercontent.com/bokuhe/rc/main/rn/.pret
 
 # GITIGNORE
 curl -o .gitignore https://raw.githubusercontent.com/bokuhe/rc/main/rn/.gitignore
+
+# App.tsx
+curl -o App.tsx https://raw.githubusercontent.com/bokuhe/rc/main/rn/App.tsx
